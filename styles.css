@@ -2,6 +2,7 @@
     --primary-color-1: rgb(232, 82, 82);
     --primary-color-2: rgb(187, 37, 37);
     --primary-color-3: #333;
+    --primary-color-4: white;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 /* Header Styling */
 header {
     background: linear-gradient( var(--primary-color-2), var(--primary-color-1));
-    color: white;
+    color: var(--primary-color-4);
     padding: 20px 0;
     width: 100%;
     position: sticky;
@@ -33,7 +34,6 @@ header h1 {
     font-size: 2.5em;
     font-weight: bold;
     margin: 5px 0;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -103,7 +103,7 @@ button {
     padding: 15px 30px;
     font-size: 1.2em;
     background-color: var(--primary-color-1);
-    color: white;
+    color: var(--primary-color-4);
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -121,8 +121,8 @@ button:hover {
 
 /* Footer Styling */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: var(--primary-color-3);
+    color: var(--primary-color-4);
     width: 100%;
     bottom: 0;
     text-align: center;
