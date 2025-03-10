@@ -114,6 +114,11 @@ button:hover {
     background-color: var(--primary-color-2);
 }
 
+/* Tip Styling */
+#tip {
+    font-size: 5px;
+}
+
 /* Footer Styling */
 footer {
     background-color: #333;
