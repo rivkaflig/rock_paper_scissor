@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // Display results in the result div
-        resultDiv.innerHTML = `You chose <strong>${userChoice}</strong></br>Computer chose <strong>${computerChoice}</strong><br> ${result}`;
+        resultDiv.innerHTML = `You chose <strong>${userChoice}</strong>. Computer chose <strong>${computerChoice}</strong>.<br> ${result}`;
     }
 
     // Add event listener to play again button
