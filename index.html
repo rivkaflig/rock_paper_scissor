@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Throwdown Games</title>
+    <link rel="icon" type="image/svg+xml" href="Images/dice.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    <body>
+
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <p>Choose Rock, Paper, or Scissors to play against the computer</p>
+        </header>
+
+        <article>
+
+            <p>Welcome to the exciting world of Rock, Paper, Scissors! In this fun game, 
+                you’ll be facing off against the computer to see who’s the ultimate champion. 
+                Here’s how it works:</br>
+                You’ll choose one of three shapes with your hand:</p>
+
+            <p><strong>Rock</strong> (a mighty fist!): Crushes <strong>Scissors</strong></br>
+                <strong>Scissors</strong> (snip snip!): Cut through <strong>Paper</strong></br>
+                <strong>Paper</strong> (a smooth open hand!): Covers up <strong>Rock</strong></p>
+
+            <p>If you both choose the same shape, it’s a tie—but don’t worry, you can always try again!
+
+                Whether you’re here for a quick decision or just a fun challenge, 
+                Rock, Paper, Scissors is the perfect game to keep things lighthearted 
+                and entertaining. Ready to take on the computer? Let’s see who wins! 👊🖐️✌️</p>
+        
+        </article>
+
+        <div class="game">
+
+            <!-- User button/image choices to play -->
+            <div class="choices">
+                <img src="Images/rock.png" alt="Rock" id="rock" class="choice">
+                <img src="Images/paper.png" alt="Paper" id="paper" class="choice">
+                <img src="Images/scissors.png" alt="Scissors" id="scissors" class="choice">
+            </div>
+
+            <!-- Displays results when user plays game -->
+            <div id="result"></div>
+
+            <button id="play-again">Play Again!</button>
+
+        </div>    
+
+        </hr>
+
+        <footer class="bg-primary text-white text-center py-3">
+            <p>&copy; 2025 ThrowdownGames | <a href="mailto:rcflig@wits.edu" class="text-white">rcflig@wits.edu</a></p>
+        </footer>
+
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
