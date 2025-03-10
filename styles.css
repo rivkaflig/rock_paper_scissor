@@ -93,7 +93,7 @@ article p {
 /* Result Styling */
 #result {
     font-size: 1.5em;
-    margin: 50px;
+    margin: 30px;
     line-height: 1.5;
     color: var(--primary-color-3);
 }
