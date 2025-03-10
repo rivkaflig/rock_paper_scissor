@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    max-width: 80%;
+    margin: auto;
+}
+
+.game {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#result {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.choice {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}
