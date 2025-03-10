@@ -20,7 +20,7 @@ body {
 header {
     background: linear-gradient( var(--primary-color-2), var(--primary-color-1));
     color: white;
-    padding: 20px 40px;
+    padding: 20px 0;
     width: 100%;
     position: sticky;
     top: 0;
