@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Gets play again button
     const playAgainBtn = document.getElementById("play-again");
 
-    const tipDiv = document.getElementById("tip");
-
     // Creates array of computer choices
     const choicesArray = ["rock", "paper", "scissors"];
 
